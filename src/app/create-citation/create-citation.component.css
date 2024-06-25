@@ -1,0 +1,11 @@
+body {
+    padding-top: 60px; /* Espace pour le header fixe */
+    padding-bottom: 60px; /* Espace pour le footer fixe */
+  }
+  
+  .container {
+    margin-top: 30px; /* Marge en haut du contenu */
+    margin-bottom: 30px; /* Marge en bas du contenu */
+    border-color: black;
+    border-radius: 20%;
+  }

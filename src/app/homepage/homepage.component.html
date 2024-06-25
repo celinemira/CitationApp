@@ -1,0 +1,11 @@
+<div class="d-flex justify-content-center flex-wrap" style="padding: 20px;">
+    <div class="card mb-5 mx-5" style="height: 400x; width: 350px;" *ngFor="let citation of citations">
+      <img [src]="citation.img" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">{{ citation.author }}</h5>
+        <p class="card-text">{{ citation.citation }}</p>
+        <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+      </div>
+    </div>
+  </div>
+  
